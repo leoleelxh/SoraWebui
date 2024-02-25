@@ -1,23 +1,23 @@
 'use client'
-import {useRouter} from "next/navigation";
+import { useRouter } from "next/navigation";
 import Header from '~/components/Header';
 import Footer from '~/components/Footer';
-import {useState} from "react";
-import {randomVideo} from "~/data/openaiVideo";
+import { useState } from "react";
+import { randomVideo } from "~/data/openaiVideo";
 import HeadInfo from "~/components/HeadInfo";
-import {useCommonContext} from "~/context/common-context";
+import { useCommonContext } from "~/context/common-context";
 import Link from "next/link";
 
 const PageComponent = ({
-                         locale = '',
-                         indexLanguageText,
-                         initVideoList = [],
-                         questionText
-                       }) => {
+  locale = '',
+  indexLanguageText,
+  initVideoList = [],
+  questionText
+}) => {
   const router = useRouter();
 
   const [textStr, setTextStr] = useState('');
-  const {setShowGeneratingModal, setShowLoadingModal} = useCommonContext();
+  const { setShowGeneratingModal, setShowLoadingModal } = useCommonContext();
 
 
   const handleSubmit = async (e: { preventDefault: () => void }) => {
@@ -93,10 +93,10 @@ const PageComponent = ({
         locale={locale}
         page={""}
       />
-      <Header locale={locale} indexLanguageText={indexLanguageText}/>
+      <Header locale={locale} indexLanguageText={indexLanguageText} />
       <div>
         <div className="block overflow-hidden bg-[#020d24] bg-cover bg-center text-white"
-             style={{backgroundImage: 'https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg'}}>
+          style={{ backgroundImage: 'https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg' }}>
           <div className="mx-auto w-full max-w-7xl px-5 mb-5">
             <div
               className="mx-auto flex max-w-4xl flex-col items-center text-center py-10">
@@ -104,12 +104,12 @@ const PageComponent = ({
               <div className="mb-5 max-w-[528px] lg:mb-8">
                 <p className="text-[#7c8aaa] text-xl">{indexLanguageText.pDescription}</p>
               </div>
-              <a
-                href="https://www.producthunt.com/posts/sorawebui?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-sorawebui"
+              {/* <a
+                href="https://www.producthunt.com/posts/SoraAIV?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-SoraAIV"
                 target="_blank"><img
                 src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=440945&theme=light"
-                alt="SoraWebui - Open&#0045;source&#0032;Sora&#0032;Web&#0032;Client | Product Hunt"
-              /></a>
+                alt="SoraAIV - Open&#0045;source&#0032;Sora&#0032;Web&#0032;Client | Product Hunt"
+              /></a> */}
             </div>
             <div>
               <div
@@ -167,7 +167,7 @@ const PageComponent = ({
                           controlsList={"nodownload"}
                           onMouseOver={handleMouseEnter}
                           onMouseLeave={handleMouseLeave}
-                          style={{width: '90%', height: '270px'}}
+                          style={{ width: '90%', height: '270px' }}
                         />
                       </div>
                       <div className={"flex justify-center items-center"}>
@@ -179,7 +179,7 @@ const PageComponent = ({
                 </div>
                 <div key={"more"} className={"px-6 py-4"}>
                   <Link href={`/${locale}/videos`}
-                        className={"flex justify-center items-center text-xl text-red-400 hover:text-blue-600"}>
+                    className={"flex justify-center items-center text-xl text-red-400 hover:text-blue-600"}>
                     {indexLanguageText.moreExample} {'>>'}
                   </Link>
                 </div>
@@ -225,10 +225,11 @@ const PageComponent = ({
                     {questionText.h2_2_p3}
                   </p>
                   <p>
-                    {questionText.h2_2_p4a}<Link href={"https://sorawebui.com/"}
-                                                 className={"text-blue-500"}>https://sorawebui.com/</Link>{questionText.h2_2_p4b}<Link
-                    href={"https://github.com/SoraWebui/SoraWebui"}
-                    className={"text-blue-500"}>https://github.com/SoraWebui/SoraWebui</Link>.
+                    {questionText.h2_2_p4a}<Link href={"https://www.soraaiv.com/"}
+                      className={"text-blue-500"}>https://www.soraaiv.com/</Link>
+                    {/* {questionText.h2_2_p4b}<Link
+                        href={"https://github.com/SoraAIV/SoraAIV"}
+                        className={"text-blue-500"}>https://github.com/SoraAIV/SoraAIV</Link>. */}
                   </p>
                 </div>
               </div>

@@ -3,10 +3,10 @@ import Footer from '~/components/Footer';
 import HeadInfo from "~/components/HeadInfo";
 
 const PageComponent = ({
-                         locale = '',
-                         data,
-                         indexLanguageText
-                       }) => {
+  locale = '',
+  data,
+  indexLanguageText
+}) => {
 
   return (
     <>
@@ -39,8 +39,8 @@ const PageComponent = ({
           <h4 className={"text-white font-bold"}>{data('h4_5')}</h4>
           <p>
             {data('h4_5_p')}<a
-            href={`https://whooper.ai/${locale}/privacy-policy`}
-            className={"text-white"}>https://sorawebui.com/privacy-policy</a>
+              href={`https://whooper.ai/${locale}/privacy-policy`}
+              className={"text-white"}>https://www.soraaiv.com/privacy-policy</a>
           </p>
           <h4 className={"text-white font-bold"}>{data('h4_6')}</h4>
           <p>{data('h4_6_p')}</p>
@@ -48,7 +48,7 @@ const PageComponent = ({
           <p>{data('h4_7_p')}</p>
           <h4 className={"text-white font-bold"}>{data('h4_8')}</h4>
           <p>
-            {data('h4_8_p')}<a href="mailto:hi@sorawebui.com" className={"text-white"}>hi@sorawebui.com</a>.
+            {data('h4_8_p')}<a href="mailto:hi@SoraAIV.com" className={"text-white"}>hi@SoraAIV.com</a>.
           </p>
         </div>
       </main>

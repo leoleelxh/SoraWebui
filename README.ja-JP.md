@@ -1,18 +1,18 @@
-# SoraWebui
-SoraWebui は、ユーザーがテキストを使って OpenAI の Sora モデルでオンラインビデオを生成できるようにすることで、ビデオ作成を簡素化するオープンソースプロジェクトです。
-👉 [SoraWebui](https://sorawebui.com)
+# SoraAIV
+SoraAIV は、ユーザーがテキストを使って OpenAI の Sora モデルでオンラインビデオを生成できるようにすることで、ビデオ作成を簡素化するオープンソースプロジェクトです。
+👉 [soraaiv](https://soraaiv.com)
 
-[English](https://github.com/SoraWebui/SoraWebui/blob/main/README.md) | [简体中文](https://github.com/SoraWebui/SoraWebui/blob/main/README.zh-CN.md) | 日本語
+[English](https://github.com/SoraAIV/SoraAIV/blob/main/README.md) | [简体中文](https://github.com/SoraAIV/SoraAIV/blob/main/README.zh-CN.md) | 日本語
 
 
 # プロジェクトプラン
-- ✅ 単語で動画を生成 ([FakeSoraAPI](https://github.com/SoraWebui/FakeSoraAPI) を使用):
+- ✅ 単語で動画を生成 ([FakeSoraAPI](https://github.com/SoraAIV/FakeSoraAPI) を使用):
 
-  この機能は、👉 [main](https://github.com/SoraWebui/SoraWebui/tree/main) または 👉 [version-0.1](https://github.com/SoraWebui/SoraWebui/tree/version-0.1) で見ることができます
+  この機能は、👉 [main](https://github.com/SoraAIV/SoraAIV/tree/main) または 👉 [version-0.1](https://github.com/SoraAIV/SoraAIV/tree/version-0.1) で見ることができます
 
 - ✅ Google でログイン:
 
-  この機能は、👉 [login](https://github.com/SoraWebui/SoraWebui/tree/login) で見ることができます
+  この機能は、👉 [login](https://github.com/SoraAIV/SoraAIV/tree/login) で見ることができます
 
 - [ ] Stripe 決済：
 
@@ -26,22 +26,22 @@ SoraWebui は、ユーザーがテキストを使って OpenAI の Sora モデ�
 ## クイックスタート
 
 ### Vercel でデプロイ
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSoraWebui%2FSoraWebui&project-name=SoraWebui&repository-name=SoraWebui&external-id=https%3A%2F%2Fgithub.com%2FSoraWebui%2FSoraWebui%2Ftree%2Fmain)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSoraWebui%2FSoraWebui&project-name=SoraAIV&repository-name=SoraAIV&external-id=https%3A%2F%2Fgithub.com%2FSoraWebui%2FSoraWebui%2Ftree%2Fmain)
 
 ### 1. プロジェクトをクローン
 
 ```bash
-git clone git@github.com:SoraWebui/SoraWebui.git
+git clone git@github.com:SoraAIV/SoraAIV.git
 ```
 
 ### 2. 依存関係をインストール
 
 ```bash
-cd SoraWebui && yarn
+cd SoraAIV && yarn
 #もしくは
-cd SoraWebui && npm install
+cd SoraAIV && npm install
 #もしくは
-cd SoraWebui && pnpm install
+cd SoraAIV && pnpm install
 ```
 
 ### 3. .env.example をコピーし、.env.local にリネームする
@@ -67,9 +67,9 @@ pnpm dev
 ```
 
 ### 5. [http://localhost](http://localhost) をブラウザで開いてご覧ください。
-![success_deploy.jpg](https://sorawebui.com/success_deploy.jpg)
+![success_deploy.jpg](https://SoraAIV.com/success_deploy.jpg)
 
 
 # 重要
-SoraWebui が正しく機能するには [FakeSoraAPI](https://github.com/SoraWebui/FakeSoraAPI) が必要です。
+SoraAIV が正しく機能するには [FakeSoraAPI](https://github.com/SoraAIV/FakeSoraAPI) が必要です。
 

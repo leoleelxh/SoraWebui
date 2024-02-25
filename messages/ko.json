@@ -3,14 +3,14 @@
     "lang": "ko",
     "language": "한국어",
     "languageInChineseSimple": "韩语",
-    "title": "SoraWebui: OpenAI의 Sora 모델을 사용한 오픈 소스 텍스트 대 비디오 Webui.",
-    "description": "SoraWebui는 사용자가 OpenAI의 Sora 모델을 사용하여 텍스트에서 쉽게 비디오를 생성할 수 있도록 하는 오픈 소스 플랫폼입니다.",
+    "title": "SoraAIV: OpenAI의 Sora 모델을 사용한 오픈 소스 텍스트 대 비디오 Webui.",
+    "description": "SoraAIV는 사용자가 OpenAI의 Sora 모델을 사용하여 텍스트에서 쉽게 비디오를 생성할 수 있도록 하는 오픈 소스 플랫폼입니다.",
     "loadingText": "로딩 중...",
     "generateText": "생성 중...",
     "buttonText": "생성",
     "placeholderText": "여기에 텍스트를 입력하거나 붙여넣으세요...",
-    "h1Text": "SoraWebui",
-    "pDescription": "SoraWebui는 사용자가 텍스트를 사용하여 온라인에서 비디오를 생성할 수 있도록 하여 비디오 제작을 간소화하는 오픈 소스 프로젝트로, 원 클릭으로 쉽게 웹 사이트를 배포할 수 있습니다.",
+    "h1Text": "SoraAIV",
+    "pDescription": "SoraAIV는 사용자가 텍스트를 사용하여 온라인에서 비디오를 생성할 수 있도록 하여 비디오 제작을 간소화하는 오픈 소스 프로젝트로, 원 클릭으로 쉽게 웹 사이트를 배포할 수 있습니다.",
     "soraVideoExample": "Sora가 생성한 예제 비디오",
     "prompt": "프롬프트",
     "soraWorksTitle": "작품",
@@ -18,7 +18,7 @@
     "moreExample": "더 많은 예제 비디오"
   },
   "privacyPolicy": {
-    "title": "개인정보 보호 정책 | SoraWebui",
+    "title": "개인정보 보호 정책 | SoraAIV",
     "mainDescription": "SoraWebui는 사용자가 OpenAI의 Sora 모델을 사용하여 텍스트에서 쉽게 비디오를 생성할 수 있도록 하는 오픈 소스 플랫폼입니다.",
     "h1": "개인정보 보호 정책",
     "date": "마지막 업데이트 날짜: 2024년 2월 19일",
@@ -38,11 +38,11 @@
     "h4_6_p": "개인정보 보호 정책에 관한 질문이나 문의 사항이 있으시면 저희에게 문의하십시오."
   },
   "termsOfService": {
-    "title": "서비스 이용 약관 | SoraWebui",
+    "title": "서비스 이용 약관 | SoraAIV",
     "mainDescription": "SoraWebui는 사용자가 OpenAI의 Sora 모델을 사용하여 텍스트에서 쉽게 비디오를 생성할 수 있도록 하는 오픈 소스 플랫폼입니다.",
     "h1": "서비스 이용 약관",
     "date": "마지막 업데이트 날짜: 2024년 2월 19일",
-    "desc": "본 서비스 이용 약관(\"약관\")은 SoraWebui(\"서비스\")에 대한 액세스 및 이용을 규제하며, SoraWebui(\"우리\" 또는 \"당사\")에서 제공됩니다. 서비스에 액세스하거나 이용함으로써, 당신은 본 약관에 동의하는 것입니다.",
+    "desc": "본 서비스 이용 약관(\"약관\")은 SoraAIV(\"서비스\")에 대한 액세스 및 이용을 규제하며, SoraAIV(\"우리\" 또는 \"당사\")에서 제공됩니다. 서비스에 액세스하거나 이용함으로써, 당신은 본 약관에 동의하는 것입니다.",
     "h4_1": "1. 서비스 설명: ",
     "h4_1_p": "SoraWebui는 사용자가 쉽게 텍스트에서 비디오를 생성할 수 있도록 OpenAI Sora를 위한 브라우저 인터페이스를 제공합니다.",
     "h4_2": "2. 소유권: ",
@@ -70,24 +70,24 @@
     "h2_2_p1": "SoraWebui는 오픈소스 웹 플랫폼으로, 사용자가 OpenAI의 Sora 모델을 사용하여 텍스트로부터 비디오를 생성할 수 있습니다.",
     "h2_2_p2": "이는 비디오 생성 프로세스를 단순화하여 쉬운 배포와 사용을 가능하게 합니다.",
     "h2_2_p3": "SoraWebui를 사용하면 누구나 텍스트를 입력하여 비디오를 생성할 수 있으므로, 비디오 제작 및 AI 기술에 대한 전문가 및 애호가 모두에게 접근 가능한 도구가 됩니다.",
-    "h2_2_p4a": "더 많은 정보는 SoraWebui 웹사이트를 방문하십시오.",
+    "h2_2_p4a": "더 많은 정보는 SoraAIV 웹사이트를 방문하십시오.",
     "h2_2_p4b": " 또는 그 GitHub 저장소를 방문하십시오 "
   },
   "videosPage": {
     "title": "동영상: Sora에 의해 생성된 예제 동영상, 최신 동영상.",
-    "description": "Sora에 의해 생성된 예제 동영상, 최신 동영상. | sorawebui.com"
+    "description": "Sora에 의해 생성된 예제 동영상, 최신 동영상. | SoraAIV.com"
   },
   "worksPage": {
     "title": "작품: 비디오 히스토리 생성하기.",
-    "description": "비디오 히스토리 생성하기. | sorawebui.com",
-    "h1Text": "SoraWebui - 작품",
+    "description": "비디오 히스토리 생성하기. | SoraAIV.com",
+    "h1Text": "SoraAIV - 작품",
     "pDescription": "SoraWebui는 사용자가 텍스트를 사용하여 OpenAI의 Sora 모델을 사용하여 온라인으로 비디오를 생성할 수 있도록 하는 오픈 소스 프로젝트로, 쉬운 원 클릭 웹사이트 배포를 특징으로 합니다.",
     "generateNew": "새로 생성"
   },
   "playgroundPage": {
     "title": "놀이터: 간편하게 비디오 생성하기.",
-    "description": "간편하게 비디오 생성하기. | sorawebui.com",
-    "h1Text": "SoraWebui - 놀이터",
+    "description": "간편하게 비디오 생성하기. | SoraAIV.com",
+    "h1Text": "SoraAIV - 놀이터",
     "pDescription": "SoraWebui는 사용자가 텍스트를 사용하여 OpenAI의 Sora 모델을 사용하여 온라인으로 비디오를 생성할 수 있도록 하는 오픈 소스 프로젝트로, 쉬운 원 클릭 웹사이트 배포를 특징으로 합니다.",
     "moreWorks": "더 많은 작품"
   }

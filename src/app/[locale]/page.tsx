@@ -33,7 +33,7 @@ export default async function IndexPage({params: {locale = ''}}) {
     h2_2_p2: tIndexQuestion('h2_2_p2'),
     h2_2_p3: tIndexQuestion('h2_2_p3'),
     h2_2_p4a: tIndexQuestion('h2_2_p4a'),
-    h2_2_p4b: tIndexQuestion('h2_2_p4b'),
+    // h2_2_p4b: tIndexQuestion('h2_2_p4b'),
   }
 
   const initVideoList = randomVideo(2);
