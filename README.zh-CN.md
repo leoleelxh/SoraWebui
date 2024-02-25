@@ -25,7 +25,7 @@ SoraAIV 是一个开源项目，允许用户使用 OpenAI 的 Sora 模型使用�
 ## 快速开始
 
 ### 在 Vercel 上部署
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSoraWebui%2FSoraWebui&project-name=SoraAIV&repository-name=SoraAIV&external-id=https%3A%2F%2Fgithub.com%2FSoraWebui%2FSoraWebui%2Ftree%2Fmain)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSoraAIV%2FSoraAIV&project-name=SoraAIV&repository-name=SoraAIV&external-id=https%3A%2F%2Fgithub.com%2FSoraAIV%2FSoraAIV%2Ftree%2Fmain)
 
 ### 1. 克隆项目
 
